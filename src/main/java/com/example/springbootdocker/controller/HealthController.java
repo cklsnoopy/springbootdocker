@@ -10,6 +10,6 @@ public class HealthController {
     @ResponseBody
     @GetMapping("/health")
     public String health(){
-        return "ok";
+        return "ok!";
     }
 }
